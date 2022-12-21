@@ -1,0 +1,13 @@
+
+<div class="card w-50" *ngIf="portero">
+    <div class="card-body">
+      <h5 class="card-title">{{ portero.data.nombre }}</h5>
+      <p class="card-text">{{ portero.data.apellidos }}</p>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">{{ portero.data.ciudad }}</li>
+        <li class="list-group-item">{{ portero.data.email }}</li>
+        <li class="list-group-item">{{ portero.data.mes_dispo }}</li>
+        <li class="list-group-item">{{ portero.data.telefono }}</li>
+      </ul>
+    </div>
+  </div>
